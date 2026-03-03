@@ -1,8 +1,8 @@
 cask "bunch" do
   arch arm: "aarch64", intel: "x64"
-  version "0.1.0"
-  sha256 arm:   "6603ede2d1b5a4f4a83b652c236c3dd87d13fe38547baecf7d2a0211cb7bced8",
-         intel: "60ffc03e489f4c9971753f05cbe6a9e4f522a1d4f69fc4cad255db3adac773a5"
+  version "0.2.0"
+  sha256 arm:   "e6021e4d12a7e2c2213cdfb2a49d1f320b16d98d20f79b41c148092b82532719",
+         intel: "52e4875efae61883595eac094c3b565a0f995839be0506ede34e37382aa203d2"
   url "https://github.com/Kotrotsos/bunch/releases/download/v#{version}/Bunch_#{version}_#{arch}.dmg"
   name "Bunch"
   desc "Claude Code Config Manager"
